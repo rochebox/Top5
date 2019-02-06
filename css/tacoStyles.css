@@ -1,0 +1,78 @@
+/* This is my stylesheet */
+body {
+	background: #c3ed89;
+	color: dodgerblue;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Caveat', cursive;
+	/* color: #d80f0f; */
+	color: #ff0000;
+	/*width: 900px; */
+}
+
+h1 {
+	margin: 0px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	background: rgb(112, 155, 3);
+	font-family: 'Gorditas', cursive;
+	color: red;
+	font-size: 60pt;
+	text-align: center;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: black;
+   	width: 100%;
+   	border-radius: 30px 70px 130px 130px
+}
+
+
+/* hash tags for id */
+#stayPut {
+	position: fixed;
+	width: 100%;
+
+
+}
+/* dot for classes */
+.pics {
+	text-align: center;
+	margin: 0;
+	padding:0;
+	
+}
+
+.pics img {
+	margin: 0;
+	padding:0;
+	border:0;
+}
+
+
+p {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 50px;
+	/*  tried this color:#a82828; */
+	-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+   
+}
+
+ul {
+	/* list-style-type: none; */
+	list-style-image: url('../images/avocado2sm.png');
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top:10px;
+	-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+   	margin-top:0;
+   	background-color: rgba(201, 76, 76, 0.5);
+   	border-radius: 15px 50px 30px 5px
+}
+
+li {
+	font-size: 40px;
+	margin-left: 10%;
+}
